@@ -1,0 +1,9 @@
+def print_positive_numbers(start, end):
+    for i in range(start, end+1):
+        if i > 0:
+            print(i)
+
+start = int(input("Enter the start of the range: "))
+end = int(input("Enter the end of the range: "))
+print("The positive numbers in the range are:")
+print_positive_numbers(start, end)
